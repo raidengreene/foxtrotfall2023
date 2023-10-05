@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Raiden's Portforlio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+  <button class="tablink" onclick="openPage('about', this, 'red')" id="defaultOpen">About</button>
+  <button class="tablink" onclick="openPage('code', this, 'green')">Code</button>
+  <button class="tablink" onclick="openPage('fun', this, 'blue')">Fun</button>
+
+  <div id="about" class="tabcontent">
+    <!-- bootstrap card that has skills, codepen/linkin/github links, extra information on me -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <img class="card-img-top" src="https://media.wired.com/photos/59324e535c4fbd732b551bd8/master/w_2560%2Cc_limit/brain1.jpg" alt="Card image">
+          <div class="card-img-overlay">Me</div>
+          <div class="card-body">
+            <p>skills: VsCode, Python, HTML, CSS, Javascript, Jquery, bootstrap, Networking</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Here are links to sites I use</p>
+            <a href="https://codepen.io/raidengreene" target="_blank" class="card-link">CodePen</a>
+            <a href="https://github.com/raidengreene" target="_blank" class="card-link">Github</a>
+            <a href="https://www.linkedin.com/in/raiden-greene-48986b21a" target="_blank" class="card-link">LinkedIn</a>
+            <a href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank" class="card-link">Course</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h4>Extra info:</h4>
+            <p>currently learning: Japanese and Java</p>
+            <p>Certifications: Network+ and Security+</p>
+            <p>I played percussion for highschool band and can play drumset</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="code" class="tabcontent">
+    <!-- code validator, github code, other projects(a-e) -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">code validator link and text
+            <p>Here is a link to the code validation of this page.</p>
+            <a href="#" class="card-link">CodePen</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Here is the github code for this page</p>
+            <a href="#" class="card-link">CodePen</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h4>Links to other projects I've done</h4>
+            <a href="#" class="card-link">Central page for projects</a>
+            <p>Here are the individual links to each page</p>
+            <ul>
+              <a href="#" class="card-link">alfa</a>
+              <a href="#" class="card-link">beta</a>
+              <a href="#" class="card-link">delta</a>
+              <a href="#" class="card-link">Echo</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="fun" class="tabcontent">
+    <!-- link to music playlist, link to red vox, current playing games or top 5 -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>links to music I listened to while making this page.</p>
+            <a href="#" class="card-link">whole playlist</a>
+            <select id="cars" name="cars">
+              <option value="volvo"><a href="#" class="card-link">the album</a></option>
+              <option value="saab">Saab</option>
+              <option value="fiat">Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Links to artists I could have listened to while making this page.</p>
+            <a href="#" class="card-link">Red Vox</a>
+            <a href="#" class="card-link">Sithu Aye</a>
+            <a href="#" class="card-link">Plini</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>My personal top 5 games to even out the tabs with 3 cards each.
+              <ol>
+                <li>Omori</li>
+                <li>Outer Wilds</li>
+                <li>Doki Doki Literature Club</li>
+                <li>Terraria</li>
+                <li>Dungeon Defenders</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>

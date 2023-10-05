@@ -9,9 +9,9 @@
 </head>
 <body>
 
-  <button class="tablink" onclick="openPage('about', this, 'red')" id="defaultOpen">About</button>
-  <button class="tablink" onclick="openPage('code', this, 'green')">Code</button>
-  <button class="tablink" onclick="openPage('fun', this, 'blue')">Fun</button>
+  <button class="tablink" onclick="openPage('about', this, 'rgb(250, 103, 103)')" id="defaultOpen">About</button>
+  <button class="tablink" onclick="openPage('code', this, 'rgb(63, 126, 63)')">Code</button>
+  <button class="tablink" onclick="openPage('fun', this, 'rgb(196, 133, 255)')">Fun</button>
 
   <div id="about" class="tabcontent">
     <!-- bootstrap card that has skills, codepen/linkin/github links, extra information on me -->
@@ -59,9 +59,9 @@
 
       <div class="col-4">
         <div class="card bg-light text-dark">
-          <div class="card-body">code validator link and text
+          <div class="card-body">
             <p>Here is a link to the code validation of this page.</p>
-            <a href="#" class="card-link">CodePen</a>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fraidengreene.github.io%2Ffoxtrotfall2023%2F" target="_blank" class="card-link">validator</a>
           </div>
         </div>
       </div>
@@ -69,9 +69,14 @@
       <div class="col-4">
         <div class="card bg-light text-dark">
           <div class="card-body">
-            <p>Here is the github code for this page</p>
-            <a href="#" class="card-link">CodePen</a>
+            <p>Here is the github code for this page.</p>
+            <a href="https://github.com/raidengreene/foxtrotfall2023" target="_blank" class="card-link">Code
+            </a>
+            <br>
+            <br>
+            <p>below is the wireframe of the site before production.</p>
           </div>
+        <img class="card-img-bottom" src="./wireframeforpage.jpg" alt="Card image">
         </div>
       </div>
 
@@ -79,13 +84,12 @@
         <div class="card bg-light text-dark">
           <div class="card-body">
             <h4>Links to other projects I've done</h4>
-            <a href="#" class="card-link">Central page for projects</a>
+            <a href="https://raidengreene.github.io/mainpageechofall2023/" target="_blank" class="card-link">Central page for projects</a>
             <p>Here are the individual links to each page</p>
             <ul>
-              <a href="#" class="card-link">alfa</a>
-              <a href="#" class="card-link">beta</a>
-              <a href="#" class="card-link">delta</a>
-              <a href="#" class="card-link">Echo</a>
+              <li><a href="https://raidengreene.github.io/IntroductiongameAlfa2023/" target="_blank" class="card-link">Alfa</a></li>
+              <li><a href="https://raidengreene.github.io/charlielabfall2023-ideal-garbanzo/" target="_blank" class="card-link">Charlie</a></li>
+              <li><a href="https://raidengreene.github.io/namefactsdeltafall2023/" target="_blank" class="card-link">Delta</a></li>
             </ul>
           </div>
         </div>
@@ -102,13 +106,17 @@
         <div class="card bg-light text-dark">
           <div class="card-body">
             <p>links to music I listened to while making this page.</p>
-            <a href="#" class="card-link">whole playlist</a>
-            <select id="cars" name="cars">
-              <option value="volvo"><a href="#" class="card-link">the album</a></option>
-              <option value="saab">Saab</option>
-              <option value="fiat">Fiat</option>
-              <option value="audi">Audi</option>
-            </select>
+            <a href="https://www.youtube.com/playlist?list=PLKh6kHmXyFH2DnIWCLBYMI6Gw7aejkdsV" target="_blank" class="card-link">whole playlist</a>
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=ZdMBlkC0GHw" target="_blank" class="card-link">follow - Old Haunts</a></li>
+              <li><a href="https://www.youtube.com/watch?v=eI4sja1eBhY" target="_blank" class="card-link">Decompression - Love Is The Beauty Of The Soul</a></li>
+              <li><a href="https://www.youtube.com/watch?v=Ick6rp9NVHg" target="_blank" class="card-link">Citizens Of The Empire - Citizens Of The Empire</a></li>
+              <li><a href="https://www.youtube.com/watch?v=HSNHkPdklm8" target="_blank" class="card-link">Often The Thinker - Better Part of Vice</a></li>
+              <li><a href="https://www.youtube.com/watch?v=nrE8Vz8BtCA" target="_blank" class="card-link">Black Narcissus - Beyond The Whispers Of Common Men</a></li>
+              <li><a href="https://www.youtube.com/watch?v=XEQoExkyThk" target="_blank" class="card-link">Chikoi The Maid - Small Maid In The Big World</a></li>
+              <li><a href="https://www.youtube.com/watch?v=fIOBRJ9m-Lc" target="_blank" class="card-link">hubris - The One Above</a></li>
+              <li><a href="https://www.youtube.com/watch?v=HeevfXd-qeU" target="_blank" class="card-link">Outrun The Sunlight - A Vast Field Of Silence</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -117,9 +125,9 @@
         <div class="card bg-light text-dark">
           <div class="card-body">
             <p>Links to artists I could have listened to while making this page.</p>
-            <a href="#" class="card-link">Red Vox</a>
-            <a href="#" class="card-link">Sithu Aye</a>
-            <a href="#" class="card-link">Plini</a>
+            <a href="https://www.youtube.com/@RedVox" target="_blank" class="card-link">Red Vox</a>
+            <a href="https://www.youtube.com/@SithuAye" target="_blank" class="card-link">Sithu Aye</a>
+            <a href="https://www.youtube.com/@plinimusic" target="_blank" class="card-link">Plini</a>
           </div>
         </div>
       </div>
